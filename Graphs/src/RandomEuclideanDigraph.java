@@ -36,8 +36,8 @@ public class RandomEuclideanDigraph
                         if (StdRandom.bernoulli())    // random orient
                             G.addEdge(i, j);
                             */
-        /* method2 一定是单向的 */
 
+        /* method2 一定是单向的 */
         for (int i = 0; i < V; i++)
             for (int j = i + 1; j < V; j++)
                 if (distance(eg.name(i), eg.name(j)) < threshold)
@@ -85,9 +85,9 @@ public class RandomEuclideanDigraph
 
     public static void main(String[] args)
     {
-        int V = 20;
+        int V = 40;
         RandomEuclideanDigraph reg = new RandomEuclideanDigraph(V);
-        reg.setThreshold(0.2);
+        reg.setThreshold(0.3);
         /*
         reg.setxMin(-5.0);
         reg.setxMax(5.0);

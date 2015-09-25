@@ -403,6 +403,22 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
         line(x1, y1, x3, y3);
     }
 
+    public static void filledArrow(double x0, double y0, double x1, double y1)
+    {
+        double W = 3 * getPenRadius();
+        double L = 0.01 * Math.sqrt((xmax - xmin) * (xmax - xmin) + (ymax - ymin) * (ymax - ymin));
+        double xDiff = x1 - x0, yDiff = y1 - y0;
+        double theta = Math.atan2(yDiff, xDiff);
+        double x2 = x1 - L * Math.cos(theta) + W * Math.sin(theta);
+        double y2 = y1 - L * Math.sin(theta) - W * Math.cos(theta);
+        double x3 = x1 - L * Math.cos(theta) - W * Math.sin(theta);
+        double y3 = y1 - L * Math.sin(theta) + W * Math.cos(theta);
+        line(x0, y0, x1, y1);
+        double[] triangleX = {x1, x2, x3};
+        double[] triangleY = {y1, y2, y3};
+        filledPolygon(triangleX, triangleY);
+    }
+
     /**
      * Draw a line from (x0, y0) to (x1, y1).
      * @param x0 the x-coordinate of the starting point

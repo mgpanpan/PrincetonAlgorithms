@@ -1,17 +1,17 @@
 /**
  * Created by pmg on 2015/9/9.
  */
-public class BreadFirstPathsDemo
+public class BreadFirstPathsDirectedDemo
 {
     private boolean[] marked;
     private int[] edgeTo;     // *last* vertex on known path to this vertex
     private int s;
-    private EuclideanGraph EG;
-    public BreadFirstPathsDemo(EuclideanGraph EG, int s)
+    private EuclideanDigraph EG;
+    public BreadFirstPathsDirectedDemo(EuclideanDigraph EG, int s)
     {
         this.EG = EG;
         this.EG.draw();
-        Graph G = EG.G();
+        Digraph G = EG.G();
         StdDraw.setPenColor(StdDraw.RED);
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
@@ -19,7 +19,7 @@ public class BreadFirstPathsDemo
         bfs(G, s);
     }
 
-    private void bfs(Graph G, int v)
+    private void bfs(Digraph G, int v)
     {
         marked[v] = true;
         StdDraw.setPenRadius(0.011);
@@ -81,12 +81,12 @@ public class BreadFirstPathsDemo
     public static void main(String[] args)
     {
         int N = 100;
-        RandomEuclideanGraph REG = new RandomEuclideanGraph(N);
+        RandomEuclideanDigraph REG = new RandomEuclideanDigraph(N);
         REG.setThreshold(0.21);
         REG.generate();
-        EuclideanGraph EG = REG.egOut();
+        EuclideanDigraph EG = REG.egOut();
         int source = StdRandom.uniform(0, N);
-        BreadFirstPathsDemo bfp = new BreadFirstPathsDemo(EG, source);
+        BreadFirstPathsDirectedDemo bfp = new BreadFirstPathsDirectedDemo(EG, source);
         int vPre = 0;
         int target = StdRandom.uniform(0, N);
         StdOut.println("From point " + source + " (" + EG.name(source) + ")" + " to point " + target + " (" + EG.name(target) + ")." );

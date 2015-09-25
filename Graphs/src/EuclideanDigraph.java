@@ -65,7 +65,8 @@ public class EuclideanDigraph extends SymbolDigraph
         String[] xy2 = coordinate2.split(",");
         double x2 = Double.parseDouble(xy2[0]);
         double y2 = Double.parseDouble(xy2[1]);
-        StdDraw.arrow(x1, y1, x2, y2);
+        // StdDraw.arrow(x1, y1, x2, y2);
+        StdDraw.filledArrow(x1, y1, x2, y2);
     }
 
     public void addEdge(int v, int w)

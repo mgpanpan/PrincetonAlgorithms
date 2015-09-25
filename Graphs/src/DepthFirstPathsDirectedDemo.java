@@ -2,17 +2,17 @@
  * Created by pmg on 2015/9/8.
  */
 
-public class DepthFirstPathsDemo
+public class DepthFirstPathsDirectedDemo
 {
     private boolean[] marked;
     private int[] edgeTo;     // *last* vertex on known path to this vertex
     private int s;
-    private EuclideanGraph EG;
-    public DepthFirstPathsDemo(EuclideanGraph EG, int s)
+    private EuclideanDigraph EG;
+    public DepthFirstPathsDirectedDemo(EuclideanDigraph EG, int s)
     {
         this.EG = EG;
         this.EG.draw();
-        Graph G = EG.G();
+        Digraph G = EG.G();
         marked = new boolean[G.V()];
         edgeTo = new int[G.V()];
         this.s = s;
@@ -20,7 +20,7 @@ public class DepthFirstPathsDemo
         dfs(G, s);
     }
 
-    private void dfs(Graph G, int v)
+    private void dfs(Digraph G, int v)
     {
         marked[v] = true;
         StdDraw.setPenRadius(0.011);
@@ -53,13 +53,13 @@ public class DepthFirstPathsDemo
     public static void main(String[] args)
     {
         int N = 100;
-        RandomEuclideanGraph REG = new RandomEuclideanGraph(N);
+        RandomEuclideanDigraph REG = new RandomEuclideanDigraph(N);
         REG.setThreshold(0.2);
         REG.generate();
 
-        EuclideanGraph EG = REG.egOut();
+        EuclideanDigraph EG = REG.egOut();
         int source = StdRandom.uniform(0, N);
-        DepthFirstPathsDemo dfp = new DepthFirstPathsDemo(REG.egOut(), source);
+        DepthFirstPathsDirectedDemo dfp = new DepthFirstPathsDirectedDemo(REG.egOut(), source);
         int vPre = 0;
         int target = StdRandom.uniform(0, N);
         StdOut.println("From point " + source + " (" + EG.name(source) + ")" + " to point " + target + " (" + EG.name(target) + ")." );
