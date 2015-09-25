@@ -22,8 +22,6 @@ public class RandomEuclideanTest
             gen.nextEvents();
         gen.end();
         graph.display();
-
-
     }
 
 }

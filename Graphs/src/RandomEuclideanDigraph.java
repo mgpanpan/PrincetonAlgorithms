@@ -27,7 +27,7 @@ public class RandomEuclideanDigraph
         buff.close();
         eg = new EuclideanDigraph("buff.txt", "/");
         Digraph G = eg.G();
-        /* method1 */
+        /* method1, 某条边可能是双向的 */
         /*
         for (int i = 0; i < V; i++)
             for (int j = 0; j < V; j++)
@@ -36,7 +36,8 @@ public class RandomEuclideanDigraph
                         if (StdRandom.bernoulli())    // random orient
                             G.addEdge(i, j);
                             */
-        /* method2 */
+        /* method2 一定是单向的 */
+
         for (int i = 0; i < V; i++)
             for (int j = i + 1; j < V; j++)
                 if (distance(eg.name(i), eg.name(j)) < threshold)
