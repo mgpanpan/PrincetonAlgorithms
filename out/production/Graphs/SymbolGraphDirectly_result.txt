@@ -1,0 +1,82 @@
+Input a filename and its delimiter: movies.txt
+/
+Input name of an element: Norton, Edward (I)
+Elements that are adjacent to Norton, Edward (I):
+    25th Hour (2002)
+    After the Sunset (2004)
+    American History X (1998)
+    Death to Smoochy (2002)
+    Everyone Says I Love You (1996)
+    Fight Club (1999)
+    Frida (2002)
+    Illusionist, The (2006)
+    Italian Job, The (2003)
+    Keeping the Faith (2000)
+    Kingdom of Heaven (2005)
+    People vs. Larry Flynt, The (1996)
+    Primal Fear (1996)
+    Red Dragon (2002)
+    Rounders (1998)
+    Score, The (2001)
+Illusionist, The (2006)
+Elements that are adjacent to Illusionist, The (2006):
+    Athey, Laurie
+    Babson, James (I)
+    Bat-Orshikh, Vadam
+    Bauer, Elias Zerael
+    Biel, Jessica
+    Biggs, Rueben-Henry
+    Bishop, Nancy (IV)
+    Blaha, Oliver
+    Blane, Nicholas
+    Blood-Smyth, Matthew
+    Boldsaikhan, Purevdorj
+    Bouchner, Vitezslav
+    Carter, Michael (I)
+    Caspe, Brian
+    Cibulka, Jan
+    Early, John
+    Fager, Dusan
+    Fellowes, David
+    Feng, Chen (II)
+    Ferenc, Robin
+    Fisher, Tom (I)
+    Forest, David (III)
+    Franklin, Vincent
+    Giamatti, Paul
+    Grothusen, Andreas
+    Gunn, Brendan
+    Hall, Sean (V)
+    Havelka, Dominik
+    James, Ryan (II)
+    Johnson, Aaron (III)
+    Johnson, Karl (II)
+    Kelemenova, Eve
+    Khasanov, Fasihddin
+    Kulhavy, Vladimir
+    Macnaughtan, Alistair
+    Marsan, Eddie
+    McEnchroe, Thomas
+    McGough, Philip
+    Meissel, Petr
+    Nararbadrakh, Sndom
+    Nemejovsky, Jan
+    Norton, Edward (I)
+    Novak, Anezka
+    Novák, Ivo (II)
+    O'Kelly, David
+    Redman, Erich
+    Rowlands, Richard (II)
+    Russell, Robert (VIII)
+    Savaria, Ellen
+    Sengee, Erdenbileg
+    Sewell, Rufus
+    Smith, Jeff (XI)
+    Strejcek, Alfred
+    Tomlinson, Eleanor
+    Trkulja, Noelle
+    Urbánek, Ivan
+    Vacek, Jiri
+    Vízner, Jaroslav
+    Wood, Jake
+    le Bon, Noel

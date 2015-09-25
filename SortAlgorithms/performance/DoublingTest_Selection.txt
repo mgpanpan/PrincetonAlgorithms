@@ -1,0 +1,9 @@
+Input the sorting algorithm name: Selection
+N = 1000, escaped time: 0.050000, t/tPrev = Infinity
+N = 2000, escaped time: 0.047000, t/tPrev = 0.940000
+N = 4000, escaped time: 0.146000, t/tPrev = 3.106383
+N = 8000, escaped time: 0.419000, t/tPrev = 2.869863
+N = 16000, escaped time: 1.746000, t/tPrev = 4.167064
+N = 32000, escaped time: 7.003000, t/tPrev = 4.010882
+N = 64000, escaped time: 29.454000, t/tPrev = 4.205912
+N = 128000, escaped time: 149.807000, t/tPrev = 5.086134

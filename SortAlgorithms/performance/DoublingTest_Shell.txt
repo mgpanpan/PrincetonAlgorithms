@@ -1,0 +1,16 @@
+Input the sorting algorithm name: Shell
+N = 1000, escaped time: 0.016000, t/tPrev = Infinity
+N = 2000, escaped time: 0.007000, t/tPrev = 0.437500
+N = 4000, escaped time: 0.029000, t/tPrev = 4.142857
+N = 8000, escaped time: 0.006000, t/tPrev = 0.206897
+N = 16000, escaped time: 0.017000, t/tPrev = 2.833333
+N = 32000, escaped time: 0.029000, t/tPrev = 1.705882
+N = 64000, escaped time: 0.105000, t/tPrev = 3.620690
+N = 128000, escaped time: 0.270000, t/tPrev = 2.571429
+N = 256000, escaped time: 0.398000, t/tPrev = 1.474074
+N = 512000, escaped time: 1.038000, t/tPrev = 2.608040
+N = 1024000, escaped time: 2.391000, t/tPrev = 2.303468
+N = 2048000, escaped time: 5.869000, t/tPrev = 2.454621
+N = 4096000, escaped time: 14.650000, t/tPrev = 2.496166
+N = 8192000, escaped time: 45.469000, t/tPrev = 3.103686
+N = 16384000, escaped time: 130.147000, t/tPrev = 2.862324

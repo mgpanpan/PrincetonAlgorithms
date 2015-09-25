@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter1/Chapter1.iml" filepath="$PROJECT_DIR$/Chapter1/Chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FTPdownload/FTPdownload.iml" filepath="$PROJECT_DIR$/FTPdownload/FTPdownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GraphStream/GraphStream.iml" filepath="$PROJECT_DIR$/GraphStream/GraphStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graphs/Graphs.iml" filepath="$PROJECT_DIR$/Graphs/Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Princeton_Algorithms.iml" filepath="$PROJECT_DIR$/Princeton_Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching/Searching.iml" filepath="$PROJECT_DIR$/Searching/Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortAlgorithms/SortAlgorithms.iml" filepath="$PROJECT_DIR$/SortAlgorithms/SortAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortAlgorithmsAnimation/SortAlgorithmsAnimation.iml" filepath="$PROJECT_DIR$/SortAlgorithmsAnimation/SortAlgorithmsAnimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortAlgorithmsVisualTrace/SortAlgorithmsVisualTrace.iml" filepath="$PROJECT_DIR$/SortAlgorithmsVisualTrace/SortAlgorithmsVisualTrace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw1/hw1.iml" filepath="$PROJECT_DIR$/hw1/hw1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw2/hw2.iml" filepath="$PROJECT_DIR$/hw2/hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw3/hw3.iml" filepath="$PROJECT_DIR$/hw3/hw3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw4/hw4.iml" filepath="$PROJECT_DIR$/hw4/hw4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw5/hw5.iml" filepath="$PROJECT_DIR$/hw5/hw5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lintcode/lintcode.iml" filepath="$PROJECT_DIR$/lintcode/lintcode.iml" />
+    </modules>
+  </component>
+</project>

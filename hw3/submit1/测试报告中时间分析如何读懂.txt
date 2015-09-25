@@ -1,0 +1,1 @@
+为何分析slopeTo() + 2*compare() 的运行次数？

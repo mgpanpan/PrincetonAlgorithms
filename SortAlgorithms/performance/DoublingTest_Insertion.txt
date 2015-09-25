@@ -1,0 +1,9 @@
+Input the sorting algorithm name: Insertion
+N = 1000, escaped time: 0.088000, t/tPrev = Infinity
+N = 2000, escaped time: 0.029000, t/tPrev = 0.329545
+N = 4000, escaped time: 0.072000, t/tPrev = 2.482759
+N = 8000, escaped time: 0.302000, t/tPrev = 4.194444
+N = 16000, escaped time: 1.237000, t/tPrev = 4.096026
+N = 32000, escaped time: 6.084000, t/tPrev = 4.918351
+N = 64000, escaped time: 32.719000, t/tPrev = 5.377876
+N = 128000, escaped time: 162.803000, t/tPrev = 4.975794

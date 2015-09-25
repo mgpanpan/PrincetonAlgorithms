@@ -1,0 +1,18 @@
+Input algorithm numbers considered here: 7
+Input the sorting algorithm name: Bubble
+Input the sorting algorithm name: Heap
+Input the sorting algorithm name: Insertion
+Input the sorting algorithm name: InsertionWithoutExch
+Input the sorting algorithm name: Merge
+Input the sorting algorithm name: Selection
+Input the sorting algorithm name: Shell
+Input array size: 10000
+Input experiment times: 100
+For 10000 random Doubles: 
+Bubble takes 0.715510 seconds
+Heap takes 0.003770 seconds
+Insertion takes 0.350600 seconds
+InsertionWithoutExch takes 0.331880 seconds
+Merge takes 0.005190 seconds
+Selection takes 0.223870 seconds
+Shell takes 0.003900 seconds

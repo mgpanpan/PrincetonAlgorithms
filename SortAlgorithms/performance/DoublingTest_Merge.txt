@@ -1,0 +1,17 @@
+Input the sorting algorithm name: Merge
+N = 1000, escaped time: 0.010000, t/tPrev = Infinity
+N = 2000, escaped time: 0.003000, t/tPrev = 0.300000
+N = 4000, escaped time: 0.008000, t/tPrev = 2.666667
+N = 8000, escaped time: 0.040000, t/tPrev = 5.000000
+N = 16000, escaped time: 0.123000, t/tPrev = 3.075000
+N = 32000, escaped time: 0.226000, t/tPrev = 1.837398
+N = 64000, escaped time: 0.062000, t/tPrev = 0.274336
+N = 128000, escaped time: 0.119000, t/tPrev = 1.919355
+N = 256000, escaped time: 0.219000, t/tPrev = 1.840336
+N = 512000, escaped time: 0.555000, t/tPrev = 2.534247
+N = 1024000, escaped time: 2.350000, t/tPrev = 4.234234
+N = 2048000, escaped time: 2.882000, t/tPrev = 1.226383
+N = 4096000, escaped time: 6.700000, t/tPrev = 2.324774
+N = 8192000, escaped time: 15.562000, t/tPrev = 2.322687
+N = 16384000, escaped time: 34.443000, t/tPrev = 2.213276
+Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
