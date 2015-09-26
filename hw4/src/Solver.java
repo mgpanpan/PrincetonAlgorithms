@@ -1,3 +1,8 @@
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.MinPQ;
+import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * Created by pmg on 2015/9/23.
  */
@@ -86,7 +91,7 @@ public class Solver
     public static void main(String[] args)
     {
         // create initial board from file
-        In in = new In("testdata/puzzle.txt");
+        In in = new In("hw4/src/testdata/puzzle.txt");
         int N = in.readInt();
         int[][] blocks = new int[N][N];
         for (int i = 0; i < N; i++)

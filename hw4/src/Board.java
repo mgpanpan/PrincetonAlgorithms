@@ -2,6 +2,10 @@
  * Created by pmg on 2015/8/25.
  */
 
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.StdOut;
+
 public class Board {
     private int[][] blocks;
     public Board(int[][] blocks)           // construct a board from an N-by-N array of blocks
@@ -87,7 +91,7 @@ public class Board {
         return true;
     }
 
-    Iterable<Board> neighbors()     // all neighboring boards
+    public Iterable<Board> neighbors()     // all neighboring boards
     {
         Queue<Board> q = new Queue<Board>();
         int N = dimension();
@@ -145,7 +149,7 @@ public class Board {
         // create initial board from file
         // StdOut.print("Input a file name: ");
         // In in = new In(StdIn.readString());
-        In in = new In("testdata/puzzle.txt");
+        In in = new In("hw4/src/testdata/puzzle.txt");
         int N = in.readInt();
         int[][] blocks = new int[N][N];
         for (int i = 0; i < N; i++)
