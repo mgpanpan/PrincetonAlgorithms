@@ -24,10 +24,10 @@ public class PrincetonCS226FTP
             ftpClient.login(user, pass);
             ftpClient.enterLocalPassiveMode();
             System.out.println("Connected");
-            String removeDirPath = "/pub/cs226/";
+            String remoteDirPath = "/pub/cs226/";
             String saveDirPath = "E:/Test/PrincetonCS226FTP";
             // if (!ftpClient.changeWorkingDirectory("/pub/cs226/")) System.out.println("CD error!");
-            FTPUtil.downloadDirectory(ftpClient, removeDirPath, "", saveDirPath);
+            FTPUtil.downloadDirectory(ftpClient, remoteDirPath, "", saveDirPath);
 
             ftpClient.logout();
             ftpClient.disconnect();

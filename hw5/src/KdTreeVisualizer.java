@@ -8,6 +8,8 @@
  *
  ******************************************************************************/
 
+import edu.princeton.cs.algs4.*;
+
 public class KdTreeVisualizer {
 
     public static void main(String[] args) {

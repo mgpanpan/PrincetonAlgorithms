@@ -14,6 +14,8 @@
  *
  ******************************************************************************/
 
+import edu.princeton.cs.algs4.*;
+
 public class KdTreeGenerator {
 
     public static void main(String[] args) {

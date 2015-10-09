@@ -22,10 +22,10 @@ public class KdTreeTestFileDownload
             ftpClient.login(user, pass);
             ftpClient.enterLocalPassiveMode();
             System.out.println("Connected");
-            String removeDirPath = "/algs4/testing/kdtree";
+            String remoteDirPath = "/algs4/testing/kdtree";
             String saveDirPath = "E:/Test/kdTreeTest";
             // if (!ftpClient.changeWorkingDirectory("/pub/cs226/")) System.out.println("CD error!");
-            FTPUtil.downloadDirectory(ftpClient, removeDirPath, "", saveDirPath);
+            FTPUtil.downloadDirectory(ftpClient, remoteDirPath, "", saveDirPath);
 
             ftpClient.logout();
             ftpClient.disconnect();

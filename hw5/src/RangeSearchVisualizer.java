@@ -11,11 +11,14 @@
  *  in red; the results using the kd-tree algorithms are drawn in blue.
  *
  ******************************************************************************/
+
+import edu.princeton.cs.algs4.*;
+
 public class RangeSearchVisualizer
 {
     public static void main(String[] args)
     {
-        String filename = "KdTreeTest/circle10.txt";
+        String filename = "hw5/src/KdTreeTest/circle10.txt";
         In in = new In(filename);
         StdDraw.show(0);
 

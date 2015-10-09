@@ -1,3 +1,5 @@
+import edu.princeton.cs.algs4.*;
+
 /******************************************************************************
  *  Compilation:  javac NearestNeighborVisualizer.java
  *  Execution:    java NearestNeighborVisualizer input.txt
@@ -15,7 +17,7 @@ public class NearestNeighborVisualizer {
 
     public static void main(String[] args)
     {
-        String filename = "KdTreeTest/circle1000.txt";
+        String filename = "hw5/src/KdTreeTest/circle1000.txt";
         In in = new In(filename);
         StdDraw.show(0);
 

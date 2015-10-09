@@ -1,8 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d217324-df42-4b79-9d24-87cf4dd5741b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SortAlgorithmsAnimation/src/Quick.java" />
+    <list default="true" id="8d217324-df42-4b79-9d24-87cf4dd5741b" name="Default" comment="Quick sort animation">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/provided/8-Puzzle Programming Assignment_files/8puzzle-game-tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/provided/8puzzle-testing.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/8puzzle.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/8puzzle.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/src/HelperCollections.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/RectHV.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/src/testdata/TestClientProvided.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5 Checklist  Kd-Trees_files/circle10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/collinear.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-insert1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-insert2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-insert3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-insert4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-insert5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree-ops.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/kdtree-testing.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/kdtree.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/kdtree.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/kdtree5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/university_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/university_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/university_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/university_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit1/以前的作业系统反馈.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/204.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/204.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/204.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/204.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/204.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/400.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/400.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/400.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/400.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/400.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/provided/8-Puzzle Programming Assignment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/src/HelperCollections现由algs4包中提供.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/LearnerStoriesCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/LearnerStoriesCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/LearnerStoriesCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/LearnerStoriesCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/LearnerStoriesCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/LearnerStoryModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/LearnerStoryModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/LearnerStoryModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/LearnerStoryModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/LearnerStoryModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/provided/Programming Assignment 4 Checklist_ 8 Puzzle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5 Checklist  Kd-Trees.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/QuestionCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/QuestionCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/QuestionCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/QuestionCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/QuestionCollection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/QuestionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/QuestionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/QuestionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/QuestionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/QuestionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/SessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/assessApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/assessApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/assessApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/assessApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/assessApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/b5m-plugin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5 Checklist  Kd-Trees_files/b5m-plugin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5  Kd-Trees_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/provided/Programming Assignment 5 Checklist  Kd-Trees_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/b5m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/backbone.hascollections.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/course.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/course.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/course.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/course.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/course.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/flexjoinLastChanceModal.html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/flexjoinLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/flexjoinLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/flexjoinLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/flexjoinLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/header(1).js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/header.html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/header_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/header_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/header_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/header_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/header_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/header_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/header_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/header_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/logo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/readme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/readme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/readme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/readme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/readme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/require.v2-1-1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/result.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/result.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit1/result_analysis.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/result_analysis.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sessionModel(1).js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/sessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/sessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/sessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sidebar(1).js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sidebar.html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/sidebar_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/sidebar_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/sidebar_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/sidebar_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/sidebar_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/sidebar_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/sidebar_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/sidebar_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/signatureTrackLastChanceModal.html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/signatureTrackLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/signatureTrackLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/signatureTrackLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/signatureTrackLastChanceModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/signature_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/signature_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/signature_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/signature_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/signature_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/spark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/spark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/spark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/spark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/spark.main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/sparkSurveyQuestionsSessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/sparkSurveyQuestionsSessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/sparkSurveyQuestionsSessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/sparkSurveyQuestionsSessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/sparkSurveyQuestionsSessionModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/student-page(1).js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/student-page.html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/student-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/student-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/student-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/student-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/student-page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/student-page_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/student-page_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/student-page_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/student-page_002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/student-page_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/student-page_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/student-page_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/student-page_003.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/underscore.extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/university_logo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3/submit2/Assignment 3_result_files/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit1/Assignment 3_result_files/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw4/submit2/Assignment 4_result_files/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit1/Assignment 5_result_files/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw5/submit2/Assignment 5_result_files/util.js" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw3\submit1\time_analysis.m" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw3\submit1\一条线上有5个及5个以上点时会有冗余项.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw3\submit1\测试报告中时间分析如何读懂.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw5\src\Point2D.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw5\src\Queue.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw5\src\RectHV.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Workspace\courses\Princeton_Algorithms\2014winter\IDEA_debug\Princeton_Algorithms\hw5\src\SET.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw4/src/Board.java" afterPath="$PROJECT_DIR$/hw4/src/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/src/BruteCollinearPoints.java" afterPath="$PROJECT_DIR$/hw3/src/BruteCollinearPoints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/src/FastCollinearPoints.java" afterPath="$PROJECT_DIR$/hw3/src/FastCollinearPoints.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/KdTree.java" afterPath="$PROJECT_DIR$/hw5/src/KdTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/KdTreeGenerator.java" afterPath="$PROJECT_DIR$/hw5/src/KdTreeGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FTPdownload/src/KdTreeTestFileDownload.java" afterPath="$PROJECT_DIR$/FTPdownload/src/KdTreeTestFileDownload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/KdTreeVisualizer.java" afterPath="$PROJECT_DIR$/hw5/src/KdTreeVisualizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/NearestNeighborVisualizer.java" afterPath="$PROJECT_DIR$/hw5/src/NearestNeighborVisualizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw3/src/Point.java" afterPath="$PROJECT_DIR$/hw3/src/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/PointSET.java" afterPath="$PROJECT_DIR$/hw5/src/PointSET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FTPdownload/src/PrincetonCS226FTP.java" afterPath="$PROJECT_DIR$/FTPdownload/src/PrincetonCS226FTP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/src/RangeSearchVisualizer.java" afterPath="$PROJECT_DIR$/hw5/src/RangeSearchVisualizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hw5/hw5.iml" afterPath="$PROJECT_DIR$/hw5/hw5.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Princeton_Algorithms.iws" />
@@ -35,38 +266,7 @@
     <favorites_list name="Princeton_Algorithms" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Merge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SortAlgorithmsAnimation/src/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1653">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quick.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SortAlgorithmsAnimation/src/Quick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3360655" vertical-offset="594" max-vertical-offset="1995">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quick.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SortAlgorithms/src/Quick.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="3097">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,6 +380,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,56 +400,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SortAlgorithmsAnimation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SortAlgorithmsAnimation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Princeton_Algorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Searching" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -603,7 +757,13 @@
       <option name="project" value="LOCAL" />
       <updated>1443365842573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Quick sort animation">
+      <created>1443451116233</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1443451116233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -619,7 +779,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35667753" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35562807" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -627,23 +787,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35667753" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34094617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37194127" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708018" sideWeight="0.49234137" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708018" sideWeight="0.49234137" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29938272" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21860817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29321486" sideWeight="0.50765866" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41761827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41761827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44045678" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34094617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29938272" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -834,13 +994,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hw5/src/KdTreeVisualizer.java</url>
-          <line>29</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hw5/src/KdTree.java</url>
-          <line>220</line>
+          <line>237</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
@@ -1218,18 +1378,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SortAlgorithms/src/Quick.java">
+    <entry file="file://$PROJECT_DIR$/SortAlgorithmsAnimation/src/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="3097">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.8373288" vertical-offset="594" max-vertical-offset="1995">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SortAlgorithmsAnimation/src/Quick.java">
+    <entry file="file://$PROJECT_DIR$/SortAlgorithms/src/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3360655" vertical-offset="594" max-vertical-offset="1995">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.19520548" vertical-offset="570" max-vertical-offset="3097">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="55" />
           <folding />
         </state>
       </provider>

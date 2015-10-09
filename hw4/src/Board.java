@@ -10,7 +10,8 @@ public class Board {
     private int[][] blocks;
     public Board(int[][] blocks)           // construct a board from an N-by-N array of blocks
     {                                      // (where blocks[i][j] = block in row i, column j)
-        // assume that the constructor receives an N-by-N array containing the N2 integers between 0 and N2 − 1, where 0 represents the blank square.
+        // assume that the constructor receives an N-by-N array containing the N2 integers between 0 and N2 − 1,
+        // where 0 represents the blank square.
         int N = blocks.length;
         this.blocks = new int[N][N];
         for (int i = 0; i < N; i++)
@@ -104,13 +105,33 @@ public class Board {
         }
         int[][] copy = new int[N][N];
         makeCopy(copy, blocks);
-        if (i > 0) { copy[i][j] = copy[i-1][j]; copy[i-1][j] = 0; q.enqueue(new Board(copy));}
+        if (i > 0)
+        {
+            copy[i][j] = copy[i-1][j];
+            copy[i-1][j] = 0;
+            q.enqueue(new Board(copy));
+        }
         makeCopy(copy, blocks);
-        if (i < N-1) { copy[i][j] = copy[i+1][j]; copy[i+1][j] = 0; q.enqueue(new Board(copy));}
+        if (i < N-1)
+        {
+            copy[i][j] = copy[i+1][j];
+            copy[i+1][j] = 0;
+            q.enqueue(new Board(copy));
+        }
         makeCopy(copy, blocks);
-        if (j > 0) { copy[i][j] = copy[i][j-1]; copy[i][j-1] = 0; q.enqueue(new Board(copy));}
+        if (j > 0)
+        {
+            copy[i][j] = copy[i][j-1];
+            copy[i][j-1] = 0;
+            q.enqueue(new Board(copy));
+        }
         makeCopy(copy, blocks);
-        if (j < N-1) { copy[i][j] = copy[i][j+1]; copy[i][j+1] = 0; q.enqueue(new Board(copy));}
+        if (j < N-1)
+        {
+            copy[i][j] = copy[i][j+1];
+            copy[i][j+1] = 0;
+            q.enqueue(new Board(copy));
+        }
         return q;
     }
 
@@ -129,20 +150,20 @@ public class Board {
         for (int i = 0; i < N; i++)
         {
             for (int j = 0; j < N; j++)
-                s.append(String.format("%2d", blocks[i][j]));
+                s.append(String.format("%d ", blocks[i][j]));
             s.append("\n");
         }
         return s.toString();
     }
 
-    /**
-     * for the animation
-     * @param row
-     * @param col
-     * @return
-     */
-    public int tileAt(int row, int col)
-    { return blocks[row][col]; }
+    ///**
+    // * for the animation
+    // * @param row
+    // * @param col
+    // * @return
+    // */
+    // public int tileAt(int row, int col)
+    // { return blocks[row][col]; }
 
     public static void main(String[] args)// unit tests (not graded)
     {
@@ -168,7 +189,7 @@ public class Board {
         StdOut.println(initial.equals(twin2));
         StdOut.println(initial.equals(initial));
         Board initial2 = new Board(blocks);
-        StdOut.println(initial.equals(initial2));
+        // StdOut.println(initial.equals(initial2));
         for (Board neighbour : initial.neighbors())
             StdOut.print(neighbour);
     }

@@ -1,6 +1,14 @@
+import edu.princeton.cs.algs4.Point2D;
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.RectHV;
+
 /**
  * Created by pmg on 2015/9/24.
  */
+
+// import edu.princeton.cs.algs4.
 
 public class KdTree
 {
@@ -14,7 +22,12 @@ public class KdTree
         private Node lb;        // the left/bottom subtree
         private Node rt;        // the right/top subtree
         public Node(Point2D p, RectHV rect, Node lb, Node rt)
-        { this.p = p; this.rect = rect; this.lb = lb; this.rt = rt; }
+        {
+            this.p = p;
+            this.rect = rect;
+            this.lb = lb;
+            this.rt = rt;
+        }
     }
 
     private Node root = null;
@@ -51,7 +64,7 @@ public class KdTree
     public void insert(Point2D p)
     {
         if (p == null) throw new NullPointerException();
-        root = put(root, p, new RectHV(-1.0, -1.0, 1.0, 1.0), true);
+        root = put(root, p, new RectHV(0.0, 0.0, 1.0, 1.0), true);
     }
 
     /**
@@ -64,7 +77,11 @@ public class KdTree
      */
     private Node put(Node node, Point2D p, RectHV rect, boolean isHorizontal)
     {
-        if (node == null) { N++; return new Node(p, rect, null, null); }
+        if (node == null)
+        {
+            N++;
+            return new Node(p, rect, null, null);
+        }
         if (p.equals(node.p)) return node; // the point is already in the KdTree(a set).
         if (isHorizontal) {
             double cmp = p.x() - node.p.x();

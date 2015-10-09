@@ -1,0 +1,9 @@
+问题均出在correctness测试上：
+1. 测试时将对segment的返回数组进行了mutate，要求再次调用segments时要返回前一次相同的结果，由于我是用对象的私有成员变量实现segments的，该函数直接返回对象的私有成员变量，因此测试通不过。
+2. 测试要求不能对输入points数组进行mutate
+3. Constructor throws exception if duplicate points
+4. 对Fast的算法，作业要求当共线的点数大于4个时也能正常找出短点，程序里没有做到
+
+
+
+timing没有问题

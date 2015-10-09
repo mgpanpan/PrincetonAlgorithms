@@ -9,7 +9,6 @@ import java.util.Arrays;
 public class FastCollinearPoints
 {
     private Queue<LineSegment> q = new Queue<LineSegment>();
-    private LineSegment[] ls;
 
     /**
      * finds all line segments containing 4 points
@@ -19,6 +18,12 @@ public class FastCollinearPoints
     public FastCollinearPoints(Point[] ps)
     {
         int N = ps.length;
+
+        // throw exception when duplicate points
+        for (int i = 0; i < N; i++)
+            for (int j = 0; j < N; j++)
+                if (j != i && ps[i].compareTo(ps[j]) == 0)
+                    throw new IllegalArgumentException();
 
         Point[] psRef = new Point[N];
         for (int i = 0; i < N; i++)
@@ -44,16 +49,21 @@ public class FastCollinearPoints
                 }
             }
         }
-        ls = new LineSegment[q.size()];
-        for (int i = 0; i < ls.length; i++)
-            ls[i] = q.dequeue();
     }
 
     public int numberOfSegments()
-    { return ls.length; }
+    { return q.size(); }
 
     public LineSegment[] segments()
-    { return ls; }
+    {
+        LineSegment[] ls = new LineSegment[q.size()];
+        int i = 0;
+        for (LineSegment item : q) {
+            ls[i] = item;
+            i++;
+        }
+        return ls;
+    }
 
     public static void main(String[] args) {
         // read the N points from a file

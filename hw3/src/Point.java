@@ -26,9 +26,9 @@ public class Point implements Comparable<Point>
     public Point(int x, int y)
     {
         /* DO NOT MODIFY */
-        this.x = x;
-        this.y = y;
-    }
+    this.x = x;
+    this.y = y;
+}
     public Comparator<Point> slopeOrder()
     { return new SlopeComparator(); }
 
