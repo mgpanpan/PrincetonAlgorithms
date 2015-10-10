@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d217324-df42-4b79-9d24-87cf4dd5741b" name="Default" comment="NFA draw">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/Draw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/GREP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/NFADemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/StdDraw.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/movies.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/tinyL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Strings/src/说明.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Strings/src/NFA.java" afterPath="$PROJECT_DIR$/Strings/src/NFA.java" />
+    <list default="true" id="8d217324-df42-4b79-9d24-87cf4dd5741b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Princeton_Algorithms.iws" />
@@ -42,58 +34,7 @@
     <favorites_list name="Princeton_Algorithms" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="NFA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strings/src/NFA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1672">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Draw.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strings/src/Draw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="22173">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StdDraw.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Strings/src/StdDraw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29672897" vertical-offset="44" max-vertical-offset="21907">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strings/src/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="2375">
-              <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectedDFS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Strings/src/DirectedDFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="1007">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -640,7 +581,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444404203826</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="NFA draw">
+      <created>1444483110403</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1444483110403</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -670,6 +617,7 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25448614" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19262981" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35667753" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -688,7 +636,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41708544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19262981" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2043551" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489019" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1243,26 +1190,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/src/NFA.java">
+    <entry file="file://$PROJECT_DIR$/Strings/src/StdDraw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="1672">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6962617" vertical-offset="44" max-vertical-offset="21907">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Strings/src/Draw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="22173">
+        <state vertical-scroll-proportion="0.29672897" vertical-offset="82" max-vertical-offset="22173">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Strings/src/StdDraw.java">
+    <entry file="file://$PROJECT_DIR$/Strings/src/NFA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29672897" vertical-offset="44" max-vertical-offset="21907">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.25467288" vertical-offset="1088" max-vertical-offset="1672">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
