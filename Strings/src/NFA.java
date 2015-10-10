@@ -56,7 +56,11 @@ public class NFA
             pc = new Bag<Integer>();
             for (int v = 0; v < G.V(); v++)
                 if (dfs.marked(v)) pc.add(v);
+
+            // optimization if no states reachable
+            if (pc.size() == 0) return false;
         }
+
 
         for (int v : pc) if (v == M) return true;
         return false;
