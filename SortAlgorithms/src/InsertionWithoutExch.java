@@ -7,16 +7,12 @@ public class InsertionWithoutExch
     {
         int N = a.length;
         for (int i = 1; i < N; i++)
-        {
+        {   // code according to CLRS INSERTION-SORT(A)
             Comparable dataToInsert = a[i];
-            for (int j = i; j > 0; j--)
-                if (less(dataToInsert, a[j-1]))
-                {
-                    a[j] = a[j - 1];   // move to make room for the data to insert
-                    if (j == 1) a[j-1] = dataToInsert;
-                }
-                else
-                { a[j] = dataToInsert; break; }
+            int j;
+            for (j = i - 1; j > 0 && less(dataToInsert, a[j]); j--)
+                a[j+1] = a[j];
+            a[j+1] = dataToInsert;
         }
     }
 
