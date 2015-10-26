@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="commons-net-3.3" level="application" />
+    <orderEntry type="library" exported="" name="stdlib" level="project" />
   </component>
 </module>
