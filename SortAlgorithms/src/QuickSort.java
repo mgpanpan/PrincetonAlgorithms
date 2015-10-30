@@ -1,18 +1,39 @@
 /**
  * Created by pmg on 2015/10/30.
- * According to Standford Algorithms video 5-2
+ * 1. According to Standford Algorithms video 5-2
+ * 2. Does not have a random shuffle, but have a different pivot choosing strategy.
+ * 3. Write 3 kinds of pivot choosing strategy, and count the comparison number.
  */
-public class Quick2
+
+public class QuickSort
 {
+    private static long comparisons = 0;
+
+    public static long getComparisons()
+    { return comparisons; }
+
     public static void sort(Comparable[] a)
     {
-        StdRandom.shuffle(a);    // Eliminate dependence on input
+        // StdRandom.shuffle(a);    // Eliminate dependence on input
+        comparisons = 0;
         sort(a, 0, a.length - 1);
     }
 
     private static void sort(Comparable[] a, int lo, int hi)
     {
         if (lo >= hi) return;
+        // the pivot element is compared to each of the other m−1 elements in the
+        // recursive call on a subarray of size m.
+        comparisons += hi - lo;
+
+        // using the lo as pivot
+        // exch(a, lo, pivotLo(a, lo, hi));
+
+        // using the hi as pivot
+        // exch(a, lo, pivotHi(a, lo, hi));
+
+        // using the median of three as pivot
+        exch(a, lo, pivotMedianOfThree(a, lo, hi));
         int j = partition(a, lo, hi);
         sort(a, lo, j - 1);
         sort(a, j + 1, hi);
@@ -21,11 +42,38 @@ public class Quick2
     private static int partition(Comparable[] a, int lo, int hi)
     {
         Comparable v = a[lo];
-        int i = lo, j = lo + 1;
+        int i = lo + 1, j = lo + 1;
+        // i always points to the leftmost element of the elements that are larger than the pivot.
         for (; j <= hi; j++)
-            if (less(a[j], v)) exch(a, ++i, j);
-        exch(a, lo, i);
+            if (less(a[j], v)) exch(a, i++, j);
+        // swap with the rightmost element of the elements that are smaller than the pivot
+        exch(a, lo, --i);
         return i;
+    }
+
+    private static int pivotLo(Comparable[] a, int lo, int hi)
+    { return lo; }
+
+    private static int pivotHi(Comparable[] a, int lo, int hi)
+    { return hi; }
+
+    private static int pivotMedianOfThree(Comparable[] a, int lo, int hi)
+    {
+        int mid = lo + (hi - lo) / 2;
+        int median;
+        if (less(a[lo], a[mid])) {
+            if (less(a[lo], a[hi]))
+                if (less(a[mid], a[hi])) median = mid;
+                else median = hi;
+            else median = lo;
+        }
+        else {
+            if (less(a[mid], a[hi]))
+                if (less(a[lo], a[hi])) median = lo;
+                else median = hi;
+            else median = mid;
+        }
+        return median;
     }
 
     private static boolean less(Comparable a, Comparable b)
@@ -150,5 +198,20 @@ public class Quick2
         sort(arrOfSingleElem);
         if (isSorted(arrOfSingleElem)) StdOut.println("array of size 1, test passed!\n");
         else             StdOut.println("array of size 1, test NOT passed!\n");
+
+        /* Stanford Algorithms course, Programming Question - 2 */
+        In in = new In("QuickSort.txt");
+        Integer[] input = new Integer[10000];
+        for (int i = 0; !in.isEmpty(); i++)
+        {
+            int num = in.readInt();
+            input[i] = num;
+        }
+
+        sort(input);
+        if (isSorted(input)) StdOut.println("sort succeed!\n");
+        else             StdOut.println("sort FAILED\n");
+
+        StdOut.println("Number of Comparisons: " + getComparisons());
     }
 }
