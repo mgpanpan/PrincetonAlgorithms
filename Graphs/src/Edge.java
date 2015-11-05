@@ -1,7 +1,7 @@
 /**
  * Created by pmg on 2015/11/5.
  */
-public class Edge
+public class Edge implements Comparable<Edge>
 {
     private final int v;
     private final int w;
