@@ -3,8 +3,8 @@
  */
 public class EdgeWeightedGraph
 {
-    int V;
-    int E;
+    private int V;
+    private int E;
     Bag<Edge>[] adj;
     public EdgeWeightedGraph(int V)
     {
