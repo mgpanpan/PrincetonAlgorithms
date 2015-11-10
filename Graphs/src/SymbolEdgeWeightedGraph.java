@@ -12,20 +12,17 @@
  *  2
  *  4
  *  7
- *  1
  * Elements that are adjacent to 1:
  *  3
  *  2
  *  7
  *  5
- *  2
  * Elements that are adjacent to 2:
  *  6
  *  7
  *  1
  *  0
  *  3
- *  7
  * Elements that are adjacent to 7:
  *  2
  *  1
@@ -60,10 +57,10 @@ public class SymbolEdgeWeightedGraph
                 index.put(line[1], k);
                 k++;
             }
-            name = new String[index.size()];
-            for (String key : index.keys())
-                name[index.get(key)] = key;
         }
+        name = new String[index.size()];
+        for (String key : index.keys())
+            name[index.get(key)] = key;
 
         in = new In(filename);
         G = new EdgeWeightedGraph(index.size());

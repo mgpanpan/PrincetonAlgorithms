@@ -1,5 +1,36 @@
 /**
  * Created by pmg on 2015/9/14.
+ * Input a filename and its delimiter: movies.txt
+ * /
+ * Input name of an element: Pacino, Al
+ *     Two for the Money (2005)
+ *         Serpico (1973)
+ *         Sea of Love (1989)
+ *         Scent of a Woman (1992)
+ *         Scarface (1983)
+ *         S1m0ne (2002)
+ *         Recruit, The (2003)
+ *         People I Know (2002)
+ *         Merchant of Venice, The (2004)
+ *         Madonna: Truth or Dare (1991)
+ *         Looking for Richard (1996)
+ *         Insomnia (2002 I)
+ *         Insider, The (1999)
+ *         Heat (1995)
+ *         Godfather: Part III, The (1990)
+ *         Godfather: Part II, The (1974)
+ *         Godfather, The (1972)
+ *         Glengarry Glen Ross (1992)
+ *         Gigli (2003)
+ *         Frankie and Johnny (1991)
+ *         Donnie Brasco (1997)
+ *         Dog Day Afternoon (1975)
+ *         Dick Tracy (1990)
+ *         Devil's Advocate, The (1997)
+ *         City Hall (1996)
+ *         Carlito's Way (1993)
+ *         Any Given Sunday (1999)
+ *         ...And Justice for All (1979)
  */
 public class SymbolGraph
 {
@@ -21,10 +52,11 @@ public class SymbolGraph
                     index.put(line[i], k);// use trim to delete the space character at the start or the end of the string.???
                     k++;
                 }
-            name = new String[index.size()];
-            for (String key : index.keys())
-                name[index.get(key)] = key;
         }
+
+        name = new String[index.size()];
+        for (String key : index.keys())
+            name[index.get(key)] = key;
 
         in = new In(filename);
         G = new Graph(index.size());

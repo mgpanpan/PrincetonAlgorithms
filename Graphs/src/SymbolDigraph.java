@@ -21,10 +21,11 @@ public class SymbolDigraph
                     index.put(line[i], k);// use trim to delete the space character at the start or the end of the string.???
                     k++;
                 }
-            name = new String[index.size()];
-            for (String key : index.keys())
-                name[index.get(key)] = key;
         }
+
+        name = new String[index.size()];
+        for (String key : index.keys())
+            name[index.get(key)] = key;
 
         in = new In(filename);
         G = new Digraph(index.size());
